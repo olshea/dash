@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product List</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="dash__wrapper">
+
+      <nav class="dash__nav__wrapper">
+        <div class="dash__nav">
+          <svg class="dash__nav__expand" xmlns='http://www.w3.org/2000/svg' fill='#d9534f' viewBox='-2 -2 7 7'><path stroke='#d9534f' d='M0 0l3 3m0-3L0 3'/><circle r='.5'/><circle cx='3' r='.5'/><circle cy='3' r='.5'/><circle cx='3' cy='3' r='.5'/></svg>
+          <ul class="dash__nav__list">
+            <li class="dash__nav__listitem dash__nav--logo">
+              <a href="#">
+                <p>Interface</p>
+                <div class="logo">
+                  <img src="images/logo3.png" alt="">
+                </div>
+
+              </a>
+            </li>
+
+            <li class="dash__nav__listitem dash__nav--active">
+              <a href="#">
+                <div class="dash__nav__listitem__image">
+                  <img style="width: 1rem" src="images/logo2.png" alt="">
+                </div>
+                <p>Dashboard</p>
+              </a>
+            </li>
+            <li class="dash__nav__listitem">
+              <a href="#">
+                <div class="dash__nav__listitem__image">
+                  <img style="width: 1rem" src="images/side1.png" alt="">
+                </div>
+                <p>Profile</p>
+              </a>
+            </li>
+            <li class="dash__nav__listitem">
+              <a href="#">
+                <div class="dash__nav__listitem__image">
+                  <img src="images/side2.png" alt="">
+                </div>
+                <p>Setting</p>
+              </a>
+            </li>
+            <li class="dash__nav__listitem">
+              <a href="#">
+                <div class="dash__nav__listitem__image">
+                  <img src="images/side3.png" alt="">
+                </div>
+                <p>Cloud</p>
+              </a>
+            </li>
+            <li class="dash__nav__listitem">
+              <a href="#">
+                <div class="dash__nav__listitem__image">
+                  <img src="images/side4.png" alt="">
+                </div>
+                <p>Message</p>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="dash__nav__list dash__nav__list--new">
+              <li class="dash__nav__listitem dash__nav--new">
+                  <a href="#">
+                    <div class="dash__nav__listitem__image">
+                      <img src="images/plus.png">
+                    </div>
+                  <p>New Item</p>
+                  </a>
+              </li>
+              <li class="new__info">Click + to create your new items.</li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="dash__main">
+        <header class="dash__header">
+          <h1 class="dash__crumbs">Hello Tam</h1>
+          <div class="dash__header__search">
+            <form class="" action="index.html" method="post">
+              <input class="input" type="text" placeholder="Search">
+              <button class="button">
+                <img style="margin-top: 4px;" src="images/search.png" alt="">
+              </button>
+            </form>
+          </div>
+          <nav class="dash__header__navbar">
+            <ul class="dash__header__nav">
+              <li class="dash__header__nav__item">
+                <a href="#" class="icon__button">
+                  <img src="images/notification.png" alt="">
+                </a>
+              </li>
+              <li class="dash__header__nav__item">
+                <a
+                  href="#"
+                  class="icon__button"
+                  style="background-color: #3D42DE;">
+                  <img src="images/profile.png" alt="">
+                </a>
+                <div class="dropdown">
+                  <a href="#" class="menu-item">
+                      <span class="icon__button" style=""></span>
+                        <p>My Profile</p>
+                      <span class="icon-right"></span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <span class="icon__button">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"><path fill="#5cb85c" d="M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z"></path></svg>
+                    </span>
+                    <p>Setting</p>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="dash__section__wrapper">
+          <section class="dash__prodlist__section">
+            <div class="dash__stats">
+              <p class="dash__stats__title">Earning Report</p>
+              <div class="prodlist">
+                <div class="prodlist__img">
+                  <img class="image" src="images/dash2.png" alt="">
+                </div>
+                <div class="prodlist__details">
+                  <h2 class="title"> Ich Liebe </h2>
+                  <div class="dash"></div>
+                  <p class="description">My funds</p>
+                </div>
+                <div class="prodlist__info__wrap">
+                  <div class="prodlist__info">
+                    <h1 class="price"> <span>$</span> 510.67 </h1>
+                    <div class="dash"></div>
+                    <p class="date">Earnings</p>
+                  </div>
+                  <div class="prodlist__info__rating">
+                    <img src="images/dash_feed.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+  </body>
+</html>

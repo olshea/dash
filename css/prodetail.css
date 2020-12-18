@@ -1,0 +1,231 @@
+/* Variables, Comments, reset styles, outline */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "GT Walsheim Pro";
+}
+
+.prodetail__header {
+  background: beige;
+  height: 4rem;
+  width: 100%;
+}
+
+.prodetail__main__wrapper {
+  display: flex;
+  margin-left: 3rem;
+}
+
+.prodetail__gallery {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid pink;
+  border-radius: 20px;
+}
+
+.temp {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #E5F8FF;
+  border-radius: 50%;
+  right: 1%;
+  top: 1%;
+}
+
+.temp img {
+  width: 20px;
+}
+
+.prodetail__gallery__image img {
+  width: 200px;
+}
+
+.prodetail__gallery__controls {
+  width: 70px;
+  position: absolute;
+  bottom: 3%;
+}
+
+.prodetail__gallery__controls img {
+  width: 100%;
+}
+
+.prodetail__main__content {
+  flex: 1;
+      margin-right: 5%;
+}
+
+.prodetail__main {
+}
+
+.prodetail__main__header {
+  margin-bottom: 1.5rem;
+}
+
+.prodetail__main__header .title {
+  color: #473889;
+  font-size: 3.5rem;
+}
+
+.prodetail__main__info {
+  margin-bottom: 2rem;
+}
+
+.prodetail__main__info .content {
+  color: #858096;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.prodetail__main__money {
+  display: flex;
+  align-items: center;
+}
+
+.prodetail__main__money .price {
+  color: #413182;
+  font-weight: 400;
+  margin-right: 2rem;
+}
+
+.prodetail__main__money .cart__button {
+  font-family: "GT Walsheim Pro";
+  color: #392C7E;
+  background: #fff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  padding-right: 1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 40px;
+  box-shadow: 0px 14px 31px -4px #766fc482;
+}
+
+.prodetail__main__money .button__img {
+  width: 30px;
+  height: 30px;
+  background: #E4F7FE;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prodetail__main__money .cart__button img {
+  width: 0.8rem;
+}
+
+.prodetail__tab {
+  margin-top: 3rem;
+}
+
+.prodetail__tab__head {
+  display: flex;
+  border: 1px solid #E8E8E8;
+  justify-content: space-between;
+  padding: 0.3rem;
+  border-radius: 40px;
+}
+
+.prodetail__tab__head .detail {
+  color: #463989;
+  border-radius: 40px;
+}
+
+.prodetail__tab__head .detail p {
+    padding: 1rem 3.7rem;
+}
+
+.prodetail__tab__head .detial--active {
+  background: #776FC4;
+  color: #fff;
+}
+
+.prodetail__tab__body {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.prodetail_tab_body_image {
+  width: 160px;
+}
+
+.prodetail_tab_body_image img {
+  width: 120px;
+}
+
+.prodetail_tab_info {
+  flex: 1;
+}
+
+.prodetail_tab_info .head {
+  display: flex;
+  justify-content: space-between;
+  color: #574F78;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid green;
+}
+
+.prodetail_tab_info .title {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.prodetail_tab_info .percent {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.prodetail_tab_info .content {
+  color: #858096;
+}
+
+.prodetail_tab_info .content p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prodetail__aside {
+  background: #F6F5FB;
+  width: 18rem;
+}
